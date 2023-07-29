@@ -1,0 +1,114 @@
+/* Univeral styles */
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 1rem 1rem 1.7rem 1rem;
+}
+h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 0 1rem 1rem 1rem;
+}
+p {
+    font-size: 1.3rem;
+}
+/* Header section */
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2.5rem;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin: 2rem 0;
+}
+nav li {
+    margin: .5rem;
+}
+/* Banner section */
+
+.banner {
+    margin: 3rem 0;
+    padding: 8rem 0 8rem 0;
+    background-image: url(/resources/images/background/skyscrapers.jpg);
+}
+.banner .banner-container {
+    text-align: center;
+    background-color: white;
+}
+
+/* Portfolio section */
+
+.portfolio {
+    margin: 5rem 0;
+}
+.portfolio-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio .box {
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 530px;
+}
+.portfolio .box img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    display: inline;
+}
+.portfolio .box h3 {
+    display: inline; 
+    margin-left: 1.5rem;
+}
+
+/* Team section */
+
+.team-members {
+    background-image: url(/resources/images/background/blurred-road.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team-members .member {
+    padding: 1rem;
+    width: 250px;
+}
+.team-members .member img {
+    width: 200px;
+}
+.team-members .member h3 {
+    padding: 1.35rem 0; 
+}
+
+/* Footer */
+
+footer h2 {
+    margin: 2.5rem 0;
+    padding: 0;
+}
+footer p {
+    margin: 2rem 0;
+}
+footer .copyright {
+    margin-top: 4rem;
+}
