@@ -43,7 +43,7 @@ nav li {
 .banner {
     margin: 3rem 0;
     padding: 8rem 0 8rem 0;
-    background-image: url(/resources/images/background/skyscrapers.jpg);
+    background-image: url(./resources/images/background/skyscrapers.jpg);
 }
 .banner .banner-container {
     text-align: center;
@@ -81,7 +81,7 @@ nav li {
 /* Team section */
 
 .team-members {
-    background-image: url(/resources/images/background/blurred-road.jpg);
+    background-image: url(./resources/images/background/blurred-road.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
