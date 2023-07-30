@@ -43,6 +43,11 @@ nav li a {
 nav li a:hover {
     color: rgb(141, 132, 132);
 }
+@media only screen and (max-width: 550px) {
+    nav ul span {
+        display: none;
+    }
+}
 /* Banner section */
 
 .banner {
@@ -122,6 +127,14 @@ footer h2 {
 footer p {
     margin: 2rem 0;
 }
+footer p br {
+    display: none;
+}
 footer .copyright {
     margin-top: 4rem;
+}
+@media only screen and (max-width: 420px) {
+    footer p br {
+        display: inline;
+    }
 }
