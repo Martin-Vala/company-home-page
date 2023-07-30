@@ -32,11 +32,16 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     font-size: 1.5rem;
-    text-decoration: underline;
     margin: 2rem 0;
 }
 nav li {
     margin: .5rem;
+}
+nav li a {
+    text-decoration: underline;
+}
+nav li a:hover {
+    color: rgb(141, 132, 132);
 }
 /* Banner section */
 
